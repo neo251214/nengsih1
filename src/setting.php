@@ -8,8 +8,8 @@
 	{
 		public function register () {
 
-			$channelToken = 'vzRIehGMCtF4E4JATMWKr8W0k8j2Z424DYgeKwS+Fkhrh7brzrQyANsEggJ+9qDOGJL4gr72NKGmPs0HYo4BNFdQQSIXPD67DYdjxqJg5CPjdzkO4WJRQ7CONRFGBG2Dl3lelA5/fc0ZVCM3qi9U5gdB04t89/1O/w1cDnyilFU=';
-			$channelSecret = 'a5810cdcb7a564b026585e22a6bdc051';
+			$channelToken = 'J6A2zs5tta+NL/+gwyGoYnNTX2XN0qXeU7AMDMcDvtyg8D5hT6KtiS7sPT++cI5/7YN1I3vWVLaaz2H3QK82/b+QJllx6sOKp5Nsj6IGz8XjfeZX9uSHDKUIdo90+U7QxrNMegBcrNth88NTdl21qQdB04t89/1O/w1cDnyilFU=';
+			$channelSecret = 'a43e7333ad8bba1e05bbf01707a97d20';
 
 			$bot = new LINEBot(new CurlHTTPClient($channelToken), [
 			        'channelSecret' => $channelSecret,
