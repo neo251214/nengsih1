@@ -16,7 +16,7 @@
 		}
 
 		public function handle () {
-			$this->bot->replyText($this->replyToken, 'Hello Following');
+			$this->bot->replyText($this->replyToken, 'Hallo aim Nengsih Rocker Lady nya UVSS');
 		}
 	}
  ?>
